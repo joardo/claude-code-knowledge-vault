@@ -1,0 +1,22 @@
+{
+  "name": "claude-platform-master",
+  "displayName": "Claude Platform Master & Tool Selection Architect",
+  "version": "1.0.0",
+  "description": "Master consultant for the Claude Code platform and tool ecosystem. Triage tasks, evaluate constraints, and choose the optimal combination of CLI runtimes, memory layers, lifecycle hooks, MCP servers, and multi-agent coordination.",
+  "author": {
+    "name": "Community Open Knowledge"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "architecture",
+    "tools",
+    "mcp",
+    "subagents",
+    "hooks",
+    "obsidian"
+  ],
+  "skills": [
+    "./skills/claude-platform-master"
+  ]
+}

@@ -1,0 +1,20 @@
+# Obsidian vault workspace & volatile cache
+.obsidian/workspace*
+.obsidian/cache/
+.obsidian/indexed*
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Logs & temp files
+*.log
+*.tmp
+/tmp/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
