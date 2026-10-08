@@ -1,0 +1,11 @@
+{
+  "name": "claude-code-knowledge-vault",
+  "owner": { "name": "joardo" },
+  "plugins": [
+    {
+      "name": "claude-platform-master",
+      "source": "./",
+      "description": "Master consultant for the Claude Code platform and tool ecosystem."
+    }
+  ]
+}

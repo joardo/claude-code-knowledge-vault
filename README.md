@@ -34,7 +34,8 @@ curl -fsSL https://raw.githubusercontent.com/joardo/claude-code-knowledge-vault/
 ### Option 2: Native Claude Code Plugin
 In Claude Code v2.1+, install directly via the CLI:
 ```bash
-claude plugin install https://github.com/joardo/claude-code-knowledge-vault
+claude plugin marketplace add joardo/claude-code-knowledge-vault
+claude plugin install claude-platform-master@claude-code-knowledge-vault
 ```
 
 ### Option 3: Windows PowerShell
