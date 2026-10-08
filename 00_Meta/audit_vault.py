@@ -11,7 +11,7 @@ import re
 import yaml
 from collections import defaultdict
 
-VAULT_DIR = "/home/joaquin/Documents/Official Claude Code Docs"
+VAULT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOC_DIR = os.path.join(VAULT_DIR, "00_MOC")
 
 def find_all_markdown_files():

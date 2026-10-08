@@ -7,7 +7,7 @@ and 80_Agent_Skills/claude-platform-master/references/capability_cheat_sheet.md.
 
 import os
 
-VAULT_DIR = "/home/joaquin/Documents/Official Claude Code Docs"
+VAULT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKILL_DIR = os.path.join(VAULT_DIR, "80_Agent_Skills/claude-platform-master")
 REF_DIR = os.path.join(SKILL_DIR, "references")
 os.makedirs(REF_DIR, exist_ok=True)

@@ -6,7 +6,7 @@ Creates structured comparative trade-off matrices in 70_Tool_Selection_Matrix/.
 
 import os
 
-VAULT_DIR = "/home/joaquin/Documents/Official Claude Code Docs"
+VAULT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MATRIX_DIR = os.path.join(VAULT_DIR, "70_Tool_Selection_Matrix")
 os.makedirs(MATRIX_DIR, exist_ok=True)
 

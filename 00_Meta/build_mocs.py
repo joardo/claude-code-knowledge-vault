@@ -6,7 +6,7 @@ Builds the central graph entrypoints and category-specific MOCs.
 
 import os
 
-VAULT_DIR = "/home/joaquin/Documents/Official Claude Code Docs"
+VAULT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOC_DIR = os.path.join(VAULT_DIR, "00_MOC")
 os.makedirs(MOC_DIR, exist_ok=True)
 

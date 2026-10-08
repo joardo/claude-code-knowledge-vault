@@ -14,7 +14,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
-VAULT_DIR = "/home/joaquin/Documents/Official Claude Code Docs"
+VAULT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META_DIR = os.path.join(VAULT_DIR, "00_Meta")
 
 def clean_name(s):
