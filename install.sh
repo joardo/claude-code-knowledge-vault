@@ -7,7 +7,7 @@
 
 set -euo pipefail
 
-REPO_OWNER="joaquincaste"
+REPO_OWNER="joardo"
 REPO_NAME="claude-code-knowledge-vault"
 BRANCH="main"
 RAW_BASE_URL="https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}"

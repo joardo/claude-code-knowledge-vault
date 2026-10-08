@@ -27,7 +27,7 @@ param (
     [switch]$Uninstall
 )
 
-$RepoOwner = "joaquincaste"
+$RepoOwner = "joardo"
 $RepoName = "claude-code-knowledge-vault"
 $Branch = "main"
 $RawBaseUrl = "https://raw.githubusercontent.com/$RepoOwner/$RepoName/$Branch"

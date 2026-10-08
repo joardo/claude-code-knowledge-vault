@@ -27,24 +27,24 @@ Adopt the **`claude-platform-master`** skill into your environment with a single
 
 ### Option 1: One-Line Remote Installer (macOS & Linux)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/joaquincaste/claude-code-knowledge-vault/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/joardo/claude-code-knowledge-vault/main/install.sh | bash
 ```
 > *Auto-detects whether you use **Claude Code** (`~/.claude/skills/`) or **Google Antigravity** (`~/.gemini/config/skills/`) and configures paths automatically.*
 
 ### Option 2: Native Claude Code Plugin
 In Claude Code v2.1+, install directly via the CLI:
 ```bash
-claude plugin install https://github.com/joaquincaste/claude-code-knowledge-vault
+claude plugin install https://github.com/joardo/claude-code-knowledge-vault
 ```
 
 ### Option 3: Windows PowerShell
 ```powershell
-irm https://raw.githubusercontent.com/joaquincaste/claude-code-knowledge-vault/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/joardo/claude-code-knowledge-vault/main/install.ps1 | iex
 ```
 
 ### Option 4: Install to Current Project Repo
 ```bash
-git clone https://github.com/joaquincaste/claude-code-knowledge-vault.git
+git clone https://github.com/joardo/claude-code-knowledge-vault.git
 cd your-project-repo
 /path/to/claude-code-knowledge-vault/install.sh --project
 ```
@@ -114,7 +114,7 @@ This repository is formatted as a full **Obsidian Knowledge Vault** adhering to 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/joaquincaste/claude-code-knowledge-vault.git
+   git clone https://github.com/joardo/claude-code-knowledge-vault.git
    ```
 2. Open **Obsidian**.
 3. Select **"Open folder as vault"** and choose the cloned directory.
